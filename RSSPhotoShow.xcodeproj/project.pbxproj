@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4FFC181537D9D000E481EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC171537D9D000E481EE /* UIKit.framework */; };
+		DC4FFC1A1537D9D000E481EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC191537D9D000E481EE /* Foundation.framework */; };
+		DC4FFC1C1537D9D000E481EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC1B1537D9D000E481EE /* CoreGraphics.framework */; };
+		DC4FFC221537D9D000E481EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC4FFC201537D9D000E481EE /* InfoPlist.strings */; };
+		DC4FFC241537D9D000E481EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4FFC231537D9D000E481EE /* main.m */; };
+		DC4FFC281537D9D000E481EE /* RSSPhotoShowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4FFC271537D9D000E481EE /* RSSPhotoShowAppDelegate.m */; };
+		DC4FFC2B1537D9D000E481EE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4FFC291537D9D000E481EE /* MainStoryboard_iPhone.storyboard */; };
+		DC4FFC2E1537D9D000E481EE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4FFC2C1537D9D000E481EE /* MainStoryboard_iPad.storyboard */; };
+		DC4FFC311537D9D000E481EE /* RSSPhotoShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4FFC301537D9D000E481EE /* RSSPhotoShowViewController.m */; };
+		DC4FFC391537D9D000E481EE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC381537D9D000E481EE /* SenTestingKit.framework */; };
+		DC4FFC3A1537D9D000E481EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC171537D9D000E481EE /* UIKit.framework */; };
+		DC4FFC3B1537D9D000E481EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4FFC191537D9D000E481EE /* Foundation.framework */; };
+		DC4FFC431537D9D000E481EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC4FFC411537D9D000E481EE /* InfoPlist.strings */; };
+		DC4FFC461537D9D000E481EE /* RSSPhotoShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4FFC451537D9D000E481EE /* RSSPhotoShowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4FFC3C1537D9D000E481EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4FFC0A1537D9CF00E481EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4FFC121537D9D000E481EE;
+			remoteInfo = RSSPhotoShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC4FFC131537D9D000E481EE /* RSSPhotoShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSPhotoShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4FFC171537D9D000E481EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC4FFC191537D9D000E481EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC4FFC1B1537D9D000E481EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC4FFC1F1537D9D000E481EE /* RSSPhotoShow-Info.plist */ = {isa = PBXFileReference; path = "RSSPhotoShow-Info.plist"; sourceTree = "<group>"; };
+		DC4FFC211537D9D000E481EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC4FFC231537D9D000E481EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4FFC251537D9D000E481EE /* RSSPhotoShow-Prefix.pch */ = {isa = PBXFileReference; path = "RSSPhotoShow-Prefix.pch"; sourceTree = "<group>"; };
+		DC4FFC261537D9D000E481EE /* RSSPhotoShowAppDelegate.h */ = {isa = PBXFileReference; path = RSSPhotoShowAppDelegate.h; sourceTree = "<group>"; };
+		DC4FFC271537D9D000E481EE /* RSSPhotoShowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSPhotoShowAppDelegate.m; sourceTree = "<group>"; };
+		DC4FFC2A1537D9D000E481EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DC4FFC2D1537D9D000E481EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DC4FFC2F1537D9D000E481EE /* RSSPhotoShowViewController.h */ = {isa = PBXFileReference; path = RSSPhotoShowViewController.h; sourceTree = "<group>"; };
+		DC4FFC301537D9D000E481EE /* RSSPhotoShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSPhotoShowViewController.m; sourceTree = "<group>"; };
+		DC4FFC371537D9D000E481EE /* RSSPhotoShowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSPhotoShowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4FFC381537D9D000E481EE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC4FFC401537D9D000E481EE /* RSSPhotoShowTests-Info.plist */ = {isa = PBXFileReference; path = "RSSPhotoShowTests-Info.plist"; sourceTree = "<group>"; };
+		DC4FFC421537D9D000E481EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC4FFC441537D9D000E481EE /* RSSPhotoShowTests.h */ = {isa = PBXFileReference; path = RSSPhotoShowTests.h; sourceTree = "<group>"; };
+		DC4FFC451537D9D000E481EE /* RSSPhotoShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSPhotoShowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4FFC101537D9D000E481EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC181537D9D000E481EE /* UIKit.framework in Frameworks */,
+				DC4FFC1A1537D9D000E481EE /* Foundation.framework in Frameworks */,
+				DC4FFC1C1537D9D000E481EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4FFC331537D9D000E481EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC391537D9D000E481EE /* SenTestingKit.framework in Frameworks */,
+				DC4FFC3A1537D9D000E481EE /* UIKit.framework in Frameworks */,
+				DC4FFC3B1537D9D000E481EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4FFC081537D9CF00E481EE = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC1D1537D9D000E481EE /* RSSPhotoShow */,
+				DC4FFC3E1537D9D000E481EE /* RSSPhotoShowTests */,
+				DC4FFC161537D9D000E481EE /* Frameworks */,
+				DC4FFC141537D9D000E481EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4FFC141537D9D000E481EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC131537D9D000E481EE /* RSSPhotoShow.app */,
+				DC4FFC371537D9D000E481EE /* RSSPhotoShowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4FFC161537D9D000E481EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC171537D9D000E481EE /* UIKit.framework */,
+				DC4FFC191537D9D000E481EE /* Foundation.framework */,
+				DC4FFC1B1537D9D000E481EE /* CoreGraphics.framework */,
+				DC4FFC381537D9D000E481EE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4FFC1D1537D9D000E481EE /* RSSPhotoShow */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC261537D9D000E481EE /* RSSPhotoShowAppDelegate.h */,
+				DC4FFC271537D9D000E481EE /* RSSPhotoShowAppDelegate.m */,
+				DC4FFC291537D9D000E481EE /* MainStoryboard_iPhone.storyboard */,
+				DC4FFC2C1537D9D000E481EE /* MainStoryboard_iPad.storyboard */,
+				DC4FFC2F1537D9D000E481EE /* RSSPhotoShowViewController.h */,
+				DC4FFC301537D9D000E481EE /* RSSPhotoShowViewController.m */,
+				DC4FFC1E1537D9D000E481EE /* Supporting Files */,
+			);
+			path = RSSPhotoShow;
+			sourceTree = "<group>";
+		};
+		DC4FFC1E1537D9D000E481EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC1F1537D9D000E481EE /* RSSPhotoShow-Info.plist */,
+				DC4FFC201537D9D000E481EE /* InfoPlist.strings */,
+				DC4FFC231537D9D000E481EE /* main.m */,
+				DC4FFC251537D9D000E481EE /* RSSPhotoShow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4FFC3E1537D9D000E481EE /* RSSPhotoShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC441537D9D000E481EE /* RSSPhotoShowTests.h */,
+				DC4FFC451537D9D000E481EE /* RSSPhotoShowTests.m */,
+				DC4FFC3F1537D9D000E481EE /* Supporting Files */,
+			);
+			path = RSSPhotoShowTests;
+			sourceTree = "<group>";
+		};
+		DC4FFC3F1537D9D000E481EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4FFC401537D9D000E481EE /* RSSPhotoShowTests-Info.plist */,
+				DC4FFC411537D9D000E481EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4FFC121537D9D000E481EE /* RSSPhotoShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4FFC491537D9D000E481EE /* Build configuration list for PBXNativeTarget "RSSPhotoShow" */;
+			buildPhases = (
+				DC4FFC0F1537D9D000E481EE /* Sources */,
+				DC4FFC101537D9D000E481EE /* Frameworks */,
+				DC4FFC111537D9D000E481EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSPhotoShow;
+			productName = RSSPhotoShow;
+			productReference = DC4FFC131537D9D000E481EE /* RSSPhotoShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4FFC361537D9D000E481EE /* RSSPhotoShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4FFC4C1537D9D000E481EE /* Build configuration list for PBXNativeTarget "RSSPhotoShowTests" */;
+			buildPhases = (
+				DC4FFC321537D9D000E481EE /* Sources */,
+				DC4FFC331537D9D000E481EE /* Frameworks */,
+				DC4FFC341537D9D000E481EE /* Resources */,
+				DC4FFC351537D9D000E481EE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4FFC3D1537D9D000E481EE /* PBXTargetDependency */,
+			);
+			name = RSSPhotoShowTests;
+			productName = RSSPhotoShowTests;
+			productReference = DC4FFC371537D9D000E481EE /* RSSPhotoShowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4FFC0A1537D9CF00E481EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RSSPhotoShow;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DC4FFC0D1537D9CF00E481EE /* Build configuration list for PBXProject "RSSPhotoShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC4FFC081537D9CF00E481EE;
+			productRefGroup = DC4FFC141537D9D000E481EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4FFC121537D9D000E481EE /* RSSPhotoShow */,
+				DC4FFC361537D9D000E481EE /* RSSPhotoShowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4FFC111537D9D000E481EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC221537D9D000E481EE /* InfoPlist.strings in Resources */,
+				DC4FFC2B1537D9D000E481EE /* MainStoryboard_iPhone.storyboard in Resources */,
+				DC4FFC2E1537D9D000E481EE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4FFC341537D9D000E481EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC431537D9D000E481EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC4FFC351537D9D000E481EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4FFC0F1537D9D000E481EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC241537D9D000E481EE /* main.m in Sources */,
+				DC4FFC281537D9D000E481EE /* RSSPhotoShowAppDelegate.m in Sources */,
+				DC4FFC311537D9D000E481EE /* RSSPhotoShowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4FFC321537D9D000E481EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4FFC461537D9D000E481EE /* RSSPhotoShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4FFC3D1537D9D000E481EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4FFC121537D9D000E481EE /* RSSPhotoShow */;
+			targetProxy = DC4FFC3C1537D9D000E481EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4FFC201537D9D000E481EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4FFC211537D9D000E481EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC4FFC291537D9D000E481EE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4FFC2A1537D9D000E481EE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4FFC2C1537D9D000E481EE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4FFC2D1537D9D000E481EE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4FFC411537D9D000E481EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4FFC421537D9D000E481EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4FFC471537D9D000E481EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4FFC481537D9D000E481EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4FFC4A1537D9D000E481EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSPhotoShow/RSSPhotoShow-Prefix.pch";
+				INFOPLIST_FILE = "RSSPhotoShow/RSSPhotoShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC4FFC4B1537D9D000E481EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSPhotoShow/RSSPhotoShow-Prefix.pch";
+				INFOPLIST_FILE = "RSSPhotoShow/RSSPhotoShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC4FFC4D1537D9D000E481EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSPhotoShow.app/RSSPhotoShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSPhotoShow/RSSPhotoShow-Prefix.pch";
+				INFOPLIST_FILE = "RSSPhotoShowTests/RSSPhotoShowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC4FFC4E1537D9D000E481EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSPhotoShow.app/RSSPhotoShow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSPhotoShow/RSSPhotoShow-Prefix.pch";
+				INFOPLIST_FILE = "RSSPhotoShowTests/RSSPhotoShowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4FFC0D1537D9CF00E481EE /* Build configuration list for PBXProject "RSSPhotoShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4FFC471537D9D000E481EE /* Debug */,
+				DC4FFC481537D9D000E481EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4FFC491537D9D000E481EE /* Build configuration list for PBXNativeTarget "RSSPhotoShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4FFC4A1537D9D000E481EE /* Debug */,
+				DC4FFC4B1537D9D000E481EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC4FFC4C1537D9D000E481EE /* Build configuration list for PBXNativeTarget "RSSPhotoShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4FFC4D1537D9D000E481EE /* Debug */,
+				DC4FFC4E1537D9D000E481EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4FFC0A1537D9CF00E481EE /* Project object */;
+}
