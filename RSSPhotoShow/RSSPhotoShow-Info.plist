@@ -18,6 +18,10 @@
 				<string>logoiphonehires.png</string>
 				<string>logoiphone.png</string>
 				<string>logoipadhires.png</string>
+				<string>Icon.png</string>
+				<string>Icon-114.png</string>
+				<string>Icon-72.png</string>
+				<string>Icon-144.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
