@@ -100,12 +100,15 @@
         self.titleLabel.text = @"Loading...";
         self.creditLabel.text = @"";
     }
+    [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
 }
+
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     [self.timer invalidate];
     self.timer = nil;
+    [[UIApplication sharedApplication] setIdleTimerDisabled: NO];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
